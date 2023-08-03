@@ -1,3 +1,7 @@
+#### 출처
+
+https://leetcode.com/problems/longest-consecutive-sequence/
+
 #### 접근 방법
 
 nums를 반복하기 전에, 뒤에 더 큰 숫자가 배치되는 걸 막기 위해 정렬을 해줍니다.
