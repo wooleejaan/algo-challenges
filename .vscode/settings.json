@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "ios": "cpp",
+    "__locale": "cpp",
+    "initializer_list": "cpp",
+    "valarray": "cpp",
+    "iostream": "cpp",
+    "queue": "cpp",
+    "vector": "cpp",
+    "iosfwd": "cpp"
+  }
+}
