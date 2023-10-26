@@ -7,6 +7,14 @@
     "iostream": "cpp",
     "queue": "cpp",
     "vector": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "__split_buffer": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "span": "cpp",
+    "string": "cpp",
+    "string_view": "cpp"
   }
 }
