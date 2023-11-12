@@ -1,23 +1,24 @@
 #include<bits/stdc++.h>
 using namespace std;
-int n, d[200001], ret, cnt;
-string s;
+int n, cnt, ret;
+string str;
 stack<int> stk;
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-    cin >> n >> s;
+    cin >> n;
+    cin >> str;
+    stk.push(-1);
     for(int i=0; i<n; i++){
-        if(s[i] == '(') stk.push(i);
-        else if(stk.size()){
-            d[i] = d[stk.top()] = 1;
+        if(str[i] == '(') stk.push(i);
+        if(str[i] == ')'){
             stk.pop();
+            if(!stk.empty()){
+                ret = max(ret, i - stk.top());
+            } else {
+                stk.push(i);
+            }
+
         }
-    }
-    for(int i=0; i<n; i++){
-        if(d[i]) {
-            cnt++;
-            ret = max(ret, cnt);
-        } else cnt = 0;
     }
     cout << ret << "\n";
     return 0;
