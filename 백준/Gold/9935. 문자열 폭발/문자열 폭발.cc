@@ -1,15 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 string S, T, ret;
+stack<char> stk;
 int main(){
     cin >> S >> T;
     for(char a : S){
-        ret += a;
-        if(ret.size() >= T.size() && ret.substr(ret.size() - T.size(), T.size()) == T){
-            ret.erase(ret.end() - T.size(), ret.end());
+        stk.push(a);
+        if(stk.size() >= T.size() && stk.top() == T[T.size() - 1]){
+            string ss = "";
+            for(char i : T){
+                ss += stk.top(); stk.pop();
+            }
+            reverse(ss.begin(), ss.end());
+            if(T != ss){
+                for(char i : ss){
+                    stk.push(i);
+                }
+            }
         }
     }
-    if(!ret.size()) cout << "FRULA" << "\n";
-    else cout << ret << "\n";
+    if(stk.size() == 0){
+        cout << "FRULA\n";
+    } else {
+        while(stk.size()){
+            ret += stk.top(); stk.pop();
+        } 
+        reverse(ret.begin(), ret.end());
+        cout << ret << "\n";
+    }
     return 0;
 }
