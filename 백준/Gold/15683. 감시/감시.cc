@@ -14,90 +14,54 @@ bool canGo(int ny, int nx){
     }
     return false;
 }
+tuple<int, int> newPos(int y, int x, int dir, int i = 0){
+    int ny = y + dy[(dir + i) % 4];
+    int nx = x + dx[(dir + i) % 4];
+    return make_tuple(ny, nx);
+}
+void infiniteGo(int y, int x, int dir, vector<pair<int, int>> &_change, int i = 0){
+    while(true){
+        int ny, nx;
+        tie(ny, nx) = newPos(y, x, dir, i);
+        if(canGo(ny, nx)){
+            if(isNotWall(ny, nx)){
+                a[ny][nx] = 8;
+                _change.push_back({ny, nx});
+            }
+            y = ny;
+            x = nx;
+        }else break;
+    }
+}
 vector<pair<int, int>> extendCCTV(int here, int dir){
     vector<pair<int, int>> _change;
     int y = v[here].first;
     int x = v[here].second;
     if(a[y][x] == 1){
-        while(true){
-            int ny = y + dy[dir];
-            int nx = x + dx[dir];
-            if(canGo(ny, nx)){
-                if(isNotWall(ny, nx)){
-                    a[ny][nx] = 8;
-                    _change.push_back({ny, nx});
-                }
-                y = ny;
-                x = nx;
-            }else break;
-        }
+        infiniteGo(y, x, dir, _change);
     }else if(a[y][x] == 2){
         for(int i=0; i<=2; i+=2){
             int _y = y;
             int _x = x;
-            while(true){
-                int ny = _y + dy[(dir + i) % 4];
-                int nx = _x + dx[(dir + i) % 4];
-                if(canGo(ny, nx)){
-                    if(isNotWall(ny, nx)){
-                        a[ny][nx] = 8;
-                        _change.push_back({ny, nx});
-                    }
-                    _y = ny;
-                    _x = nx;
-                }else break;
-            }
+            infiniteGo(_y, _x, dir, _change, i);
         }
     }else if(a[y][x] == 3){
         for(int i=0; i<2; i++){
             int _y = y;
             int _x = x;
-            while(true){
-                int ny = _y + dy[(dir + i) % 4];
-                int nx = _x + dx[(dir + i) % 4];
-                if(canGo(ny, nx)){
-                    if(isNotWall(ny, nx)){
-                        a[ny][nx] = 8;
-                        _change.push_back({ny, nx});
-                    }
-                    _y = ny;
-                    _x = nx;
-                }else break;
-            }
+            infiniteGo(_y, _x, dir, _change, i);
         }
     }else if(a[y][x] == 4){
         for(int i=0; i<3; i++){
             int _y = y;
             int _x = x;
-            while(true){
-                int ny = _y + dy[(dir + i) % 4];
-                int nx = _x + dx[(dir + i) % 4];
-                if(canGo(ny, nx)){
-                    if(isNotWall(ny, nx)){
-                        a[ny][nx] = 8;
-                        _change.push_back({ny, nx});
-                    }
-                    _y = ny;
-                    _x = nx;
-                }else break;
-            }
+            infiniteGo(_y, _x, dir, _change, i);
         }
     }else if(a[y][x] == 5){
         for(int i=0; i<4; i++){
             int _y = y;
             int _x = x;
-            while(true){
-                int ny = _y + dy[(dir + i) % 4];
-                int nx = _x + dx[(dir + i) % 4];
-                if(canGo(ny, nx)){
-                    if(isNotWall(ny, nx)){
-                        a[ny][nx] = 8;
-                        _change.push_back({ny, nx});
-                    }
-                    _y = ny;
-                    _x = nx;
-                }else break;
-            }
+            infiniteGo(_y, _x, dir, _change, i);
         }
     }
     return _change;
