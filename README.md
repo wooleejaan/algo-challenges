@@ -1,4 +1,4 @@
-### yw-algorithms
+### Algorithms
 
 알고리즘 문제 풀이를 기록합니다. 주로 cpp과 nodejs를 사용합니다.
 
