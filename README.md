@@ -1,15 +1,7 @@
 ### Algorithms
 
-알고리즘 문제 풀이를 기록합니다. 주로 cpp과 nodejs를 사용합니다.
+알고리즘 문제를 푸는 공간입니다. c++과 nodejs를 주로 사용합니다.
 
-[1. 백준 풀이](./백준/)<br>
-백준에서 푼 문제 풀이들을 기록합니다.
-
-[2. 프로그래머스 풀이](./프로그래머스/)<br>
-프로그래머스에서 푼 문제 풀이들을 기록합니다.
-
-[3. deepdive](./algo-deepdive/)<br>
-푼 문제들을 다시 풀거나, 알고리즘/자료구조 개념을 익힙니다.
-
-[4. playground]()<br>
-cpp, js 관련 임시 코드를 작성하며 연습합니다.
+[Programmers](/프로그래머스/)<br>
+[Baekjoon](/백준/)<br>
+[Deepdive](/algo-deepdive/)<br>
