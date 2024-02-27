@@ -17,5 +17,6 @@
     "string": "cpp",
     "string_view": "cpp",
     "map": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
