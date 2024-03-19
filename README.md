@@ -1,3 +1,3 @@
-### Algorithm Study
+### Algorithms Challenges
 
-Solved algorithm problems using C++ and Node.js
+Algorithms Challenges
