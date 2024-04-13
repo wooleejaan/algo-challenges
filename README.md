@@ -1,6 +1,7 @@
 ### Algorithms Challenges
 
-#### Programmers
+<details>
+<summary>Programmers</summary>
 
 [부대복귀](/프로그래머스/unrated/132266. 부대복귀/)<br>
 [1,2,3 떨어트리기](/프로그래머스/unrated/150364. 1，2，3 떨어트리기/)<br>
@@ -40,7 +41,10 @@
 [아이템 줍기](/프로그래머스/lv3/87694. 아이템 줍기/)<br>
 [사라지는 발판](/프로그래머스/lv3/92345. 사라지는 발판/)<br>
 
-#### Baekjoon
+</details>
+
+<details>
+<summary>Baekjoon</summary>
 
 [2618 경찰차](/백준/Platinum/2618. 경찰차/)<br>
 [3015 오아시스 재결합](/백준/Platinum/3015. 오아시스 재결합/)<br>
@@ -120,3 +124,6 @@
 [17837 새로운 게임 2](/백준/Gold/17837. 새로운 게임 2/)<br>
 [19942 다이어트](/백준/Gold/19942. 다이어트/)<br>
 [1315 RPG](/백준/Platinum/1315. RPG/)<br>
+[17258 인기가 넘쳐흘러](/백준/Platinum/17258. 인기가 넘쳐흘러/)<br>
+
+</details>
