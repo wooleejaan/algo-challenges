@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[5419 북서풍](/백준/Platinum/5419. 북서풍/)<br>
 [2618 경찰차](/백준/Platinum/2618. 경찰차/)<br>
 [3015 오아시스 재결합](/백준/Platinum/3015. 오아시스 재결합/)<br>
 [3197 백조의 호수](/백준/Platinum/3197. 백조의 호수/)<br>
