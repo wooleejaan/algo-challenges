@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[3653 영화 수집/Platinum](/백준/Platinum/3653. 영화 수집/)<br>
 [1280 나무 심기/Platinum](/백준/Platinum/1280. 나무 심기/)<br>
 [17297 Messi Gimossi/Gold](/백준/Gold/17297. Messi Gimossi/)<br>
 [17623 괄호/Gold](/백준/Gold/17623. 괄호/)<br>
