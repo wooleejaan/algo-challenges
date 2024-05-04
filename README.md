@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[1280 나무 심기/Platinum](/백준/Platinum/1280. 나무 심기/)<br>
 [17297 Messi Gimossi/Gold](/백준/Gold/17297. Messi Gimossi/)<br>
 [17623 괄호/Gold](/백준/Gold/17623. 괄호/)<br>
 [5419 북서풍/Platinum](/백준/Platinum/5419. 북서풍/)<br>
