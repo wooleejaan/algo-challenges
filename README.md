@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[1486 등산/Gold](/백준/Gold/1486. 등산/)<br>
 [11658 구간 합 구하기 3/Platinum](/백준/Platinum/11658. 구간 합 구하기 3/)<br>
 [2042 구간 합 구하기/Gold](/백준/Gold/2042. 구간 합 구하기/)<br>
 [3653 영화 수집/Platinum](/백준/Platinum/3653. 영화 수집/)<br>
