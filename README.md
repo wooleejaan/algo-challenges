@@ -1,4 +1,4 @@
-### Algorithm Challenges
+### Algorithms Challenges
 
 <details>
 <summary>Programmers</summary>
