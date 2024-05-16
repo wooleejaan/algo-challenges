@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[1219 오민식의 고민/Platinum](/백준/Platinum/1219. 오민식의 고민/)<br>
 [16118 달빛 여우/Gold](/백준/Gold/16118. 달빛 여우/)<br>
 [5719 거의 최단 경로/Platinum](/백준/Platinum/5719. 거의 최단 경로/)<br>
 [1486 등산/Gold](/백준/Gold/1486. 등산/)<br>
