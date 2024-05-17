@@ -46,6 +46,7 @@
 <details>
 <summary>Baekjoon</summary>
 
+[1238 파티/Gold/C++](/백준/Gold/1238. 파티/)<br>
 [1613 역사/Gold/C++](/백준/Gold/1613. 역사/)<br>
 [1219 오민식의 고민/Platinum/C++](/백준/Platinum/1219. 오민식의 고민/)<br>
 [16118 달빛 여우/Gold/C++](/백준/Gold/16118. 달빛 여우/)<br>
