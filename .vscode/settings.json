@@ -18,5 +18,7 @@
     "string_view": "cpp",
     "map": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "editor.defaultFormatter": "ms-vscode.cpptools", // 알고리즘 풀 때만 켜두기
+  "C_Cpp.clang_format_fallbackStyle": "Google"
 }
