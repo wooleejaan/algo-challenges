@@ -2,6 +2,7 @@
 
 with [programmers](https://programmers.co.kr/), [baekjoon](https://www.acmicpc.net/)
 
+[Baekjoon/17616번/등수 찾기/Gold/C++](/백준/Gold/17616. 등수 찾기/)<br>
 [Baekjoon/15972번/물탱크/Platinum/C++](/백준/Platinum/15972. 물탱크/)<br>
 [Baekjoon/14864번/줄서기/Gold/C++](/백준/Gold/14864. 줄서기/)<br>
 [Baekjoon/5373번/큐빙/Platinum/C++](/백준/Platinum/5373. 큐빙/)<br>
